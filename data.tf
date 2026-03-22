@@ -2,7 +2,7 @@
 data "aws_ami" "bharathdevops" {
 
     most_recent = true
-    owners = ["334864977755"]
+    owners = ["self"]
 
     filter {
         name   = "name"
